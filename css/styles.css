@@ -19,7 +19,9 @@ margin-left: 144px;
 margin-top: 7px;
 }
 .textarea {
+    width: 756px;
     max-width: 756px;
+    height: 298px;
  max-height: 298px;
 flex-shrink: 0;
 border: 2px solid rgba(212, 211, 211, 0.30);
