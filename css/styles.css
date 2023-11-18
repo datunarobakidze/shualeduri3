@@ -19,11 +19,47 @@ margin-left: 144px;
 margin-top: 7px;
 }
 .textarea {
-    width: 756px;
-height: 298px;
+    max-width: 756px;
+ max-height: 298px;
 flex-shrink: 0;
 border: 2px solid rgba(212, 211, 211, 0.30);
 background: #F8F8F8;
 margin-left: 144px;
 margin-top: 40px;
+display: inline-block;
+}
+.input {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align:top;   
+    margin-top: 25px;
+}
+.a {
+    display: block;
+    width: 370px;
+height: 59px;
+flex-shrink: 0;
+border: 2px solid rgba(212, 211, 211, 0.30);
+background: #F8F8F8;
+margin-top: 18px;
+
+
+
+}
+.container {
+    width: 1400px;
+    height: 600px;
+}
+.submit {
+    margin-top: 25px;
+    width: 370px;
+height: 59px;
+flex-shrink: 0;
+background: #5968F4;
+color: #FBFBFF;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
