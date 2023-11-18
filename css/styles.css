@@ -1,0 +1,29 @@
+h3 {
+  color: #5863e3;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 144px;
+  margin-top: 57px;
+}
+h1 {
+    color: #000;
+font-family: Helvetica;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 144px;
+margin-top: 7px;
+}
+.textarea {
+    width: 756px;
+height: 298px;
+flex-shrink: 0;
+border: 2px solid rgba(212, 211, 211, 0.30);
+background: #F8F8F8;
+margin-left: 144px;
+margin-top: 40px;
+}
