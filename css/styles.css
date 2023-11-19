@@ -128,3 +128,13 @@ a {
 p {
     width: 250px;
 }
+.fotoebi {
+    margin-top: 200px;
+    width: 1400px;
+}
+.picture {
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
