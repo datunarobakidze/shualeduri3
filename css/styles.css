@@ -19,7 +19,7 @@ h1 {
   margin-top: 7px;
 }
 .textarea {
-  width: 756px;
+  width: 100%;
   max-width: 756px;
   height: 298px;
   max-height: 298px;
@@ -28,13 +28,15 @@ h1 {
   background: #f8f8f8;
   margin-left: 144px;
   margin-top: 40px;
-  display: inline-block;
+  display: inline-block
+  ;
 }
 .input {
   display: inline-block;
   margin-left: 20px;
   vertical-align: top;
   margin-top: 25px;
+  
 }
 .a {
   display: block;
@@ -46,8 +48,17 @@ h1 {
   margin-top: 18px;
 }
 .container {
-  width: 1400px;
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
   height: 600px;
+  
+}
+textarea {
+  resize: none;
+  padding: 23px 21px;
+  width: 100%;
+  height: 100%;
 }
 .submit {
   margin-top: 25px;
@@ -131,6 +142,7 @@ p {
   justify-content: space-evenly;
 }
 footer {
+  padding-top: 50px;
   max-width: 1700px;
   height: 372px;
   flex-shrink: 0;
@@ -167,7 +179,8 @@ h2 {
   vertical-align: top;
   margin-left: 200px;
   /* border: 2px solid red;
- */ }
+ */
+}
 .f2 a {
   display: block;
   color: #5863e3;
@@ -194,55 +207,56 @@ h2 {
 }
 .bolo {
   margin-left: 250px;
-  
 }
 .fa-envelope {
-    display: block;
+  display: block;
 }
 .fa-phone {
-    display: block;
+  display: block;
 }
 .fa-location-dot {
-    display: block;
+  display: block;
 }
 .info {
-    display: flex;
+  display: flex;
 }
 .info p {
-    color: #FFF;
-font-family: Helvetica;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left: 10px;
-margin-top: 28px;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+  margin-top: 28px;
 }
 .call {
-    color: #FFF;
-font-family: Helvetica;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-display: flex;
-
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
 }
 .location {
-    color: #FFF;
-font-family: Helvetica;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-display: flex;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
 }
 .call p {
-    margin-top: 30px;
-    margin-left:10px ;
+  margin-top: 30px;
+  margin-left: 10px;
 }
-  
+
 .location p {
-    margin-top: 30px;
-    margin-left: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+input[type="text"] {
+  padding: 15px 10px;
 }
